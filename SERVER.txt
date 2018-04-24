@@ -1,0 +1,15 @@
+server no projeto
+node index.js
+
+server express
+pouchdb-server --port 8000
+
+rotas:
+server
+http://localhost:8000/
+http://127.0.0.1:8000/_utils/#/_all_dbs
+
+app
+http://localhost:8080/
+http://localhost:8080/db
+http://localhost:8080/db/pouchdb_app
